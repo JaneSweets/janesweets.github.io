@@ -1,0 +1,50 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Jane's awesome website
+
+Here's a gif of elmo
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+You can add text
+
+ * add lists
+ * with extra bullets
+ 
+You can *FORMAT* and **bold?**
+
+This is a [link](https://www.google.com/) to a good data science tool. Here's a link to [P8105](https://p8105.com). Here's a link to the [about](about.html) page.
+
+(https: protocol, s = secure)
+
+You can also still use R!
+
+```{r}
+library(tidyverse)
+
+plot_df =
+  tibble(
+    x = runif(100),
+    y = 1 + 2 * x + rnorm(100)
+  )
+
+plot_df |> 
+  ggplot(aes(x = x, y = y)) +
+  geom_point()
+```
+
+# Here's a new section
+
+Van Gogh's *Almond Blossoms*:
+
+![](D:/Personal/Van Gogh.jfif)
+
+# Other stuff on this page
+
+Definitely there is [plotly](plotly.html) stuff!
