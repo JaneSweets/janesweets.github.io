@@ -9,6 +9,8 @@ navbar:
       href: mailto:sm5592@columbia.edu
     - icon: fa-github fa-lg
       href: http://github.com/janesweets/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/shaolei-ma-46a67a227/
 output:
   html_document:
     theme: readable
