@@ -1,50 +1,34 @@
 ---
-title: "My awesome website"
+title: "Jane's Personal Portfolio"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This is Jane's awesome website
+### Personal Information
 
-Here's a gif of elmo
-
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-
-You can add text
-
- * add lists
- * with extra bullets
+ * **Name**: Shaolei (Jane) Ma
+ * **Pronouns**: she/they
  
-You can *FORMAT* and **bold?**
+### Experiences
 
-This is a [link](https://www.google.com/) to a good data science tool. Here's a link to [P8105](https://p8105.com). Here's a link to the [about](about.html) page.
+#### Education Background
 
-(https: protocol, s = secure)
+ * Sep 2023-May 2025 *MS Biostatistics*, Columbia Mailman School of Public Health
+ * Sep 2019-Jun 2023 *BS Statistics*, Renmin University of China
+ 
+#### Internship Experience
 
-You can also still use R!
+ * Feb 2023-Aug 2023 *Data Science Intern*, CIDER
+ * Aug 2022-Jan 2023 *Data Analyst Intern*, Bayer
+ * Jun 2022-Jul 2022 *Data Analyst Intern*, MyCOS Data
+ 
+### Favs / Fun Facts
 
-```{r}
-library(tidyverse)
-
-plot_df =
-  tibble(
-    x = runif(100),
-    y = 1 + 2 * x + rnorm(100)
-  )
-
-plot_df |> 
-  ggplot(aes(x = x, y = y)) +
-  geom_point()
-```
-
-# Here's a new section
-
-Van Gogh's *Almond Blossoms*:
-
-![](D:/Personal/Van Gogh.jfif)
-
-# Other stuff on this page
-
-Definitely there is [plotly](plotly.html) stuff!
+ * **Interested Area**: Mental Health
+ * **Hobbies**: Writing, Watching Movies, *Observing Humans*, plus everything for introverts
+ * **MBTI**: INFJ
+ * I don't drink ☕! And I am still learning to ride bicycles✊
+ * Here's Van Gogh's *Almond Blossoms*:
+<img src="images/Van_Gogh.png" style="width:80%">
