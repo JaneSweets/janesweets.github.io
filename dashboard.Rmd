@@ -2,6 +2,9 @@
 title: "Visualization for NYC Restaurant Inspections Dataset"
 output: 
   flexdashboard::flex_dashboard:
+    theme: 
+      version: 3
+      bootswatch: readable
     orientation: rows
     vertical_layout: fill
 ---
@@ -15,7 +18,7 @@ library(p8105.datasets)
 
 data("rest_inspec")
 
-rest_inspec_Jan_2017 =
+rest_inspec_Jan_2017_df =
   rest_inspec |> 
   filter(
     month(inspection_date) == 1,
@@ -25,13 +28,13 @@ rest_inspec_Jan_2017 =
 
 Here, I take a look at the inspected restaurants in Jan, 2017.
 
-Row {data-height=550}
+Row {data-height=450}
 -----------------------------------------------------------------------
 
 ### Overall Score Distribution
 
 ```{r}
-rest_inspec_Jan_2017 |> 
+rest_inspec_Jan_2017_df |> 
   plot_ly(x = ~ score, 
           type = "histogram", alpha = 0.5)
 ```
@@ -40,21 +43,22 @@ rest_inspec_Jan_2017 |>
 ### Score Distribution Among Boroughs
 
 ```{r}
-rest_inspec_Jan_2017 |> 
+rest_inspec_Jan_2017_df |> 
   mutate(boro = fct_reorder(boro, score, .na_rm = T)) |> 
   plot_ly(y = ~score, color = ~boro, type = "box")
 ```
 
-Row {data-height=450}
+Row {data-height=550}
 -----------------------------------------------------------------------
 
 ### Inspection Type Distribution
 
 ```{r}
-rest_inspec_Jan_2017 |> 
+rest_inspec_Jan_2017_df |> 
   count(inspection_type) |> 
   mutate(inspection_type = fct_reorder(inspection_type, n)) |> 
   plot_ly(x = ~inspection_type, y = ~n, color = ~inspection_type,
-          type = "bar", colors = "viridis")
+          type = "bar", colors = "viridis") |> 
+  layout(xaxis = list(tickfont = list(size = 10))) # reduce size
 ```
 
