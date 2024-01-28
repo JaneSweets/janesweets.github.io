@@ -13,6 +13,8 @@ output:
  
 ### Experiences
 
+A full version of my resume is available for download [here](resume.html).
+
 #### Education Background
 
  * Sep 2023-May 2025 *MS Biostatistics*, Columbia Mailman School of Public Health

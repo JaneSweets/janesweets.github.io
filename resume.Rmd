@@ -2,4 +2,4 @@
 title: "Resume"
 ---
 
-<img src="images/Resume_Shaolei_Ma.jpg" style="width:100%">
+<img src="images/Resume_Shaolei_Ma.png" style="width:100%">
