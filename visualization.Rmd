@@ -4,7 +4,7 @@ output: html_document
 
 Here is the visualization work I have done.
 
-### R Shiny
+## R Shiny
 
  * "Depression Matters": Demographic Factors Influencing Depression Level ([link](https://doloreshqq.github.io/p8105_final.github.io/index.html))
  

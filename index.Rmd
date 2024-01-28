@@ -5,39 +5,38 @@ output:
     toc_float: true
 ---
 
-### Personal Information
+Hello!
 
- * **Name**: Shaolei (Jane) Ma
- * **Pronouns**: she/they
- 
-### Experiences
+This is **Shaolei Ma**, and you can call me **Jane**. My pronouns are *she* and *they*. I am currently a first-year Master of Science student major in Biostatistics at Columbia University.
 
-A full version of my resume is available for download [here](resume.html).
+This is my personal portfolio. This page lists my major experiences. You can find my full resume in jpg format [here](resume.html). The [visualization](visualization.html) section also has the visualization work I have done.
 
-#### Education Background
+Hope you have a great one! :)
+
+### Education Background
 
  * Sep 2023-May 2025 *MS Biostatistics*, Columbia Mailman School of Public Health
  * Sep 2019-Jun 2023 *BS Statistics*, Renmin University of China
  
-#### Skills
+### Skills
 
  * Data Analysis: SQL, R (dplyr, ggplot2, tidyverse, Shiny), Python (Numpy, Pandas, Matplotlib, Scikit-learn), SAS.
  * Certification: SAS Certified Specialist: Advanced Programming Using SAS 9.4; HIPAA Certified.
  * Tools: RStudio, Jupyter Notebook, PyCharm, AMOS, SPSS, MS Office (Access, Excel).
 
-#### Data Analysis Experience
+### Data Analysis Experience
 
  * Feb 2023-Aug 2023 *Data Science Intern*, CIDER
  * Aug 2022-Jan 2023 *Data Analyst Intern*, Bayer
  * Jun 2022-Jul 2022 *Data Analyst Intern*, MyCOS Data
  
-#### Academic Project Experience
+### Academic Project Experience
 
  * Oct 2023-Dec 2023 "Depression Matters": Demographic Factors Influencing Depression Level ([link](https://doloreshqq.github.io/p8105_final.github.io/index.html))
  * Dec 2022-Apr 2023 "After Twenty Rules": Social Anxiety During COVID-19 (*Undergraduate Thesis*)
  * Jun 2021-Mar 2022 Satisfaction of Funeral Reform Policy Based on Resource Mobilization Theory ([published in Chinese](https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2023&filename=DXYP202310043&uniplatform=OVERSEA&v=0i-G_dhr1ffH8VL3yxC0Hu8HRF4cmIsT4LjlqP0VZeejbpFWkhYM5-vPbQS7HNNQ))
  
-#### Extracurricular Activities
+### Extracurricular Activities
 
  * Sep 2020-Mar 2022 "Internationaler" Public Account (24,000 Followers), *Translator, Typesetter*
  * Sep 2020-Sep 2021 Statistical Investigation Association, *Administration Group Co-Leader*
