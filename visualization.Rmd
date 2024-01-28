@@ -1,7 +1,8 @@
 ---
-title: "Visualization Work"
 output: html_document
 ---
+
+Here is the visualization work I have done.
 
 ### R Shiny
 

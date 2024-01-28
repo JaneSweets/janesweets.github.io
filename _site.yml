@@ -5,8 +5,8 @@ navbar:
   right:
     - text: "Resume"
       href: resume.html
-    - text: "Dashboard"
-      href: dashboard.html
+    - text: "Visualization"
+      href: visualization.html
     - icon: fa-envelope fa-lg
       href: mailto:sm5592@columbia.edu
     - icon: fa-github fa-lg
