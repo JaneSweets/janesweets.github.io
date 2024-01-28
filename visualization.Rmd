@@ -1,0 +1,12 @@
+---
+title: "Visualization Work"
+output: html_document
+---
+
+### R Shiny
+
+ * "Depression Matters": Demographic Factors Influencing Depression Level ([link](https://doloreshqq.github.io/p8105_final.github.io/index.html))
+ 
+    * I created an R Shiny app illustrating the occurrences/proportion of different depression level across countries. ([link](https://doloreshqq.shinyapps.io/r_shiny_for_p8105/))
+
+    <img src="images/r_shiny_depression.png" style="width:90%">
