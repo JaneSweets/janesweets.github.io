@@ -10,7 +10,7 @@ Hello!
 
 This is **Shaolei Ma**, and you can call me **Jane**. My pronouns are *she* and *they*. I am currently a first-year Master of Science student major in Biostatistics at Columbia University.
 
-This is my personal portfolio. This page lists my major experiences. You can find my full resume in jpg format [here](resume.html). The [visualization](visualization.html) section also has the visualization work I have done.
+This is my personal portfolio. This page lists my major experiences. You can find my full resume in jpg format [here](resume.html). The [visualization](visualization.html) section also has the visualization work I have done. The three icons in the upper right corner list my E-mail, GitHub, and LinkedIn profile.
 
 Hope you have a great one! :)
 
